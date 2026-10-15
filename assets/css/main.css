@@ -3257,3 +3257,14 @@ input, select, textarea {
     background: #cccccc;
     border-radius: 10px;
 }
+
+/* Warna default abu-abu untuk logo Tableau agar sama dengan LinkedIn */
+.icon-tableau svg {
+  fill: #4e565c !important; /* Jika warna abu-abu default bawaan Anda berbeda, silakan sesuaikan */
+  transition: fill 0.2s ease;
+}
+
+/* Warna saat kursor menyentuh tombol Tableau (Otomatis Hijau Toska) */
+.icon-tableau:hover svg {
+  fill: #43b581 !important; /* Warna hijau toska persis seperti ikon Email Anda */
+}
